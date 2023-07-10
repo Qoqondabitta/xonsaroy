@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+}
+.header {
+  padding: 15px 60px;
+  width: 100%;
+  display: flex;
+  column-gap: 5px;
+}
+.messageLeft {
+  padding: 80px 130px 10px 0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.leaner-card {
+}
+
+.leaner {
+  width: 300px;
+  height: 2px;
+  background-color: red;
+}
+.tel1 {
+  display: flex !important;
+  flex-direction: column !important;
+}
+#hurry {
+  font-size: 65px;
+  line-height: 90px;
+}
+#hurry span {
+  color: red;
+}
+#benefit {
+  line-height: 27px;
+  font-size: 12px;
+}
+.headbtn {
+  width: 150px;
+  height: 35px;
+  text-align: center;
+  transition: all 0.3s;
+}
+.headbtn:hover {
+  transform: scale(1.15);
+}
+#orNow {
+  color: white;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: red;
+  border: 1px solid red;
+}
+#call {
+  color: black;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: white;
+  border: 1px solid rgb(177, 174, 174);
+}
+.kovushRight {
+  width: 50%;
+}
+.caruselItems {
+  display: flex;
+  flex-direction: column;
+  /* background-color: skyblue; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding-bottom: 30px;
+  height: 600px;
+}
+.columnStyles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.tag {
+  border-radius: 10px;
+  position: relative;
+  top: -500px;
+  left: -455px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 120px;
+  height: 110px;
+  align-items: flex-start;
+  padding: 15px 15px 0px 12px;
+  background-color: white;
+  box-shadow: 4px 7px 15px #969393;
+}
+.tags {
+  position: relative;
+}
+.active {
+  z-index: 10;
+}
+.activeTag {
+  z-index: 2000;
+}
+.firstDiscount {
+  position: absolute;
+}
+.sale {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.secondDiscount {
+  position: absolute;
+}
+.thirdDiscount {
+  position: absolute;
+}
+#percentage {
+  color: red;
+  font-size: 20px;
+}
+.imgAll {
+  width: 536px;
+  /* height: 536px; */
+}
+.firstDiscount img {
+  height: 536px;
+}
+.secondDiscount img {
+  /* border: 2px solid yellow; */
+  width: 536px;
+  height: 536px;
+}
+.thirdDiscount img {
+  /* border: 2px solid blue; */
+  width: 536px;
+  height: 536px;
+}
+.twobtn {
+  z-index: 1;
+  box-shadow: 4px 7px 15px #837f7f;
+  width: 150px;
+  height: 35px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  transition: all 0.3s;
+}
+.twobtn:hover {
+  transform: scale(1.15);
+}
+#previous {
+  background-color: white;
+  border: 1px solid white;
+}
+#previous i {
+  color: rgb(187, 182, 182);
+}
+#next {
+  background-color: red;
+  border: 1px solid red;
+}
+#next i {
+  color: white;
+}
+.stage {
+  width: 100%;
+  z-index: 19000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: -485px;
+}
+.add {
+  display: flex;
+  column-gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.addImg {
+  background-image: url(../Assets/images/add.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 90px;
+  height: 80px;
+  border: 10px solid white;
+  box-shadow: 4px 7px 15px #837f7f;
+  border-radius: 50%;
+}
+.add p {
+  line-height: 30px;
+  border-left: 2px solid red;
+  padding-left: 15px;
+  padding-right: 35px;
+}
