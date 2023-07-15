@@ -605,3 +605,17 @@
     background-color: rgba(65, 64, 64, 0.464);
 }
 /* footer end */
+.leaner-head{
+    gap: 20px;
+}
+.language{
+    gap: 10px;
+}
+.UzbekLanguage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../Assets/images/rus.jpeg);
+    background-position: center;
+    background-size: cover;
+}
