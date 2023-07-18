@@ -527,9 +527,9 @@
   z-index: 10;
   width: 535px;
   height: 200px;
-  background-image: url(https://s3.amazonaws.com/images.gearjunkie.com/uploads/2020/09/petzl-climbing-rope-700x466.jpg);
+  background-image: url(../Assets/images/knitting.jpg);
   background-size: cover;
-  background-position: right;
+  background-position: center;
   /* object-fit: cover; */
 }
 .orderButtonForWoodenFloat {
@@ -554,7 +554,7 @@
   z-index: 10;
   width: 530px;
   height: 200px;
-  background-image: url(https://www.aspiring.co.nz/wp-content/uploads/2021/04/118126975_3392064564165597_6462210938291230912_n-1024x683.jpg);
+  background-image: url(../Assets/images/dor.jpg);
   background-size: cover;
   background-position: center;
 }
